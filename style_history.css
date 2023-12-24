@@ -1,0 +1,269 @@
+/* Eric Meyer's CSS Reset */
+html, body, p, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;}
+
+
+.wrapper {
+	min-width: 1000px;
+	max-width: 2000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;}
+
+.header {
+	height: 50px;
+	background: #95D5EE;border-bottom: dashed 1px #006699;}
+
+.content {padding: 10px 10px 10px; width: 95%; 
+margin-top:5px; margin-left:20px; 
+
+}
+
+/*------------------------------------------------------------------*/
+
+.left_sidebar {float:left;}
+
+hr {    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;}
+    
+hr:after {    content: "o";
+    display: inline-block;
+    position: relative; 
+    top: -0.5em;  
+    font-size: 1.5em;
+    padding: 0 0.15em;
+    background: white;}
+
+/*hr {
+height: 10px;
+border: 0;
+box-shadow: inset 0 15px 12px -11px rgba(0,0,0,0.15);
+}*/
+
+h1 {color: #3A3A3A; font-family: ‘arial’, sans-serif; font-size: 25px; text-indent: 0px; padding-top: 15px; text-align:center; text-shadow: 0 1px 1px #fff; }
+h2 {color: #3A3A3A; font-family: ‘arial’, sans-serif; font-size: 15px; text-shadow: 0 1px 1px #fff; float:right; }
+
+input[type=button] {  position: relative;
+  display: inline-block;
+  color: #777674;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  user-select: none;
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 3px / 100%;
+  background-image:
+   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+  }
+  
+  input[type=button]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+  
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.center-img2 { width:600px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+a:link {color:#014869;}
+a:hover {color:#95d5ee;}
+
+
+.button1 {
+  color:#08233e;
+  font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+  font-size:70%;
+  padding:14px;
+  background:url(overlay.png) repeat-x center #ffcc00;
+  background-color:rgba(255,204,0,1);
+  border:1px solid #ffcc00;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  border-bottom:1px solid #9f9f9f;
+  -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+  cursor:pointer;
+ }
+
+p2 {
+font:bold 18px 'Georgia';
+background:none;
+color:dark-grey;text-shadow: 0 1px 1px #fff; text-indent: 0px; margin: 0;  text-shadow: 0 1px 1px #fff; margin-top: 0.8em; text-align: justify;
+}
+
+.list {
+font:bold 18px 'Georgia';
+background:none;
+color:dark-grey;
+text-shadow: 0 1px 1px #fff; 
+text-indent: 0px; 
+margin-left: 100px;  
+text-shadow: 0 1px 1px #fff; 
+margin-top: 0.8em; 
+text-align: justify;
+}
+
+p3 {
+font:bold 16px 'Georgia';
+background:none;
+color:dark-grey;text-shadow: 0 1px 1px #fff; text-indent: 0px;  text-shadow: 0 1px 1px #fff; 
+ text-align: justify;
+}
+
+.center {text-align: center; color: grey; font-family: 'Georgia', sans-serif; font-size: 28px; text-indent: 0px; margin: 0;  
+text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 2px 2px 0, #cad5e2 3px 3px 0, 
+                 #cad5e2 4px 4px 0;
+                  margin-bottom: 0.6em;}
+
+.p1 {
+text-align: center;
+font:bold 16px 'Georgia';
+color:dark-grey;
+text-shadow: 0 1px 1px #fff; 
+}
+
+nobr {
+font:bold 26px 'Georgia';
+color:red;
+margin-right:10px;
+} 
+
+strong {font:bold 16px 'Georgia'; color:#000B33;
+
+
+}
+
+p { color: #000c18; font-family: 'Georgia', sans-serif; font-size: 16px; text-indent: 0px; margin: 0;  text-shadow: 0 1px 1px #fff; margin-top: 0.8em; text-align: justify;}
+
+p1 { color: #000c18; font-family: 'Georgia', sans-serif; font-size: 20px; text-indent: 0px;   text-shadow: 0 1px 1px #fff;  text-align: center;}
+
+ 
+ #toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; 
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font: bold 14px verdana;
+}
+ 
+ 
+ table {
+font-family: "georgia", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
+
+
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+
+
+td {
+background: #D8E6F3;
+}
+
+
+th:first-child, td:first-child {
+text-align: left;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
